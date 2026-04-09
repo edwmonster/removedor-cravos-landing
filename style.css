@@ -581,5 +581,333 @@ footer {
     
     .floating-btn {
         display: block;
+        
     }
 }
+/* ===== MELHORIAS RESPONSIVIDADE MOBILE ===== */
+
+@media (max-width: 768px) {
+    /* Container com padding adequado */
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* HERO */
+    .hero {
+        padding: 40px 0;
+    }
+    
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .hero-text {
+        text-align: center;
+    }
+    
+    .hero-text h1 {
+        font-size: 1.8rem;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    
+    /* Badges centralizados */
+    .badges {
+        justify-content: center;
+    }
+    
+    .badge {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+    
+    /* Price Box */
+    .price-box {
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    
+    .new-price {
+        font-size: 2rem;
+    }
+    
+    .old-price {
+        font-size: 1rem;
+    }
+    
+    .btn-cta {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    
+    /* Hero Image */
+    .hero-image {
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    
+    .tag {
+        top: 10px;
+        right: 10px;
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+    
+    /* BEFORE/AFTER */
+    .before-after {
+        padding: 60px 0;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+        padding: 0 15px;
+    }
+    
+    .subtitle-section {
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+    
+    .comparison {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .comp-image {
+        max-width: 100%;
+    }
+    
+    .label {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+        top: 15px;
+        left: 15px;
+    }
+    
+    .highlight-text {
+        font-size: 1.2rem;
+        padding: 15px;
+        margin: 0 15px;
+    }
+    
+    /* HOW WORKS */
+    .how-works {
+        padding: 60px 0;
+    }
+    
+    .steps {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 15px;
+    }
+    
+    .step {
+        padding: 30px 15px;
+    }
+    
+    .step-icon {
+        font-size: 2.5rem;
+    }
+    
+    .step h3 {
+        font-size: 1.1rem;
+    }
+    
+    /* BENEFITS */
+    .benefits {
+        padding: 60px 0;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .benefit {
+        padding: 25px;
+    }
+    
+    .benefit .icon {
+        font-size: 2.5rem;
+    }
+    
+    .benefit h3 {
+        font-size: 1.1rem;
+    }
+    
+    /* TESTIMONIALS */
+    .testimonials {
+        padding: 60px 0;
+    }
+    
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .testimonial {
+        padding: 25px;
+    }
+    
+    .testimonial p {
+        font-size: 0.95rem;
+    }
+    
+    /* FAQ */
+    .faq {
+        padding: 60px 0;
+    }
+    
+    .faq-list {
+        padding: 0 15px;
+    }
+    
+    .faq-q {
+        padding: 15px 20px;
+        font-size: 0.95rem;
+    }
+    
+    .faq-q h3 {
+        font-size: 1rem;
+    }
+    
+    .faq-a {
+        font-size: 0.9rem;
+    }
+    
+    /* FINAL CTA */
+    .final-cta {
+        padding: 60px 0;
+    }
+    
+    .final-cta h2 {
+        font-size: 1.8rem;
+    }
+    
+    .final-cta > p {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    
+    .price-final {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 15px;
+    }
+    
+    .price-final .old {
+        font-size: 1.2rem;
+    }
+    
+    .price-final .new {
+        font-size: 2.5rem;
+    }
+    
+    .btn-large {
+        max-width: 100%;
+        margin: 0 15px 20px;
+        font-size: 1.1rem;
+        padding: 18px;
+    }
+    
+    .guarantees {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 15px;
+    }
+    
+    .countdown-text {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    
+    #countdown {
+        font-size: 1.2rem;
+    }
+    
+    /* FLOATING BUTTON */
+    .floating-btn {
+        display: block;
+        padding: 12px;
+    }
+    
+    .floating-btn a {
+        padding: 14px;
+        font-size: 1rem;
+    }
+    
+    /* ANNOUNCEMENT BAR */
+    .announcement-bar {
+        font-size: 0.85rem;
+        padding: 10px;
+    }
+    
+    /* Imagens responsivas */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* MOBILE EXTRA PEQUENO */
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .new-price {
+        font-size: 1.8rem;
+    }
+    
+    .price-final .new {
+        font-size: 2rem;
+    }
+    
+    .btn-cta {
+        font-size: 0.95rem;
+        padding: 14px;
+    }
+    
+    .step-icon,
+    .benefit .icon {
+        font-size: 2rem;
+    }
+}
+
+/* MELHORIAS GERAIS MOBILE */
+@media (max-width: 768px) {
+    /* Centralizar tudo */
+    body {
+        text-align: left;
+    }
+    
+    /* Espaçamento consistente */
+    section {
+        overflow-x: hidden;
+    }
+    
+    /* Prevenir scroll horizontal */
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    * {
+        max-width: 100%;
+    }
